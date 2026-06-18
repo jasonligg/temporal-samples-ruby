@@ -25,6 +25,11 @@ group :encryption do
   gem 'sinatra'
 end
 
+group :fiber_activity do
+  gem 'async'
+  gem 'async-http'
+end
+
 group :opentelemetry do
   gem 'opentelemetry-api'
   gem 'opentelemetry-exporter-otlp'

@@ -26,6 +26,7 @@ Prerequisites:
 * [eager_workflow_start](eager_workflow_start) - Demonstrates Eager Workflow Start to reduce latency for workflows that start with a local activity.
 * [encryption](encryption) - Demonstrates how to make a codec for end-to-end encryption.
 * [env_config](env_config) - Load client configuration from TOML files with programmatic overrides.
+* [fiber_activity](fiber_activity) - Demonstrates how the fiber executor enables concurrent I/O even when the thread pool is fully occupied.
 * [message_passing_simple](message_passing_simple) - Simple workflow that accepts signals, queries, and updates.
 * [open_telemetry](open_telemetry) - Demonstrates how to use OpenTelemetry tracing and metrics with the Ruby SDK
 * [patching](patching) - Demonstrates how to safely alter a workflow.
